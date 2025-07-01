@@ -1,0 +1,15 @@
+id: QmSqZY8DpGVwkfcDe7UPwrTUqjYq6bvrzWCsUDkrTnN5A2
+description: Returns pong to a ping over http
+tags: []
+source: .
+trigger:
+    type: https
+    method: GET
+    paths:
+        - /ping
+domains:
+    - Generated
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: ping
