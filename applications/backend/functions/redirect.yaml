@@ -1,0 +1,15 @@
+id: QmehoEW5rKkRLVu6HpoSP8bKt4SeHtovDsC67CdWY7qinU
+description: ""
+tags: []
+source: .
+trigger:
+    type: https
+    method: POST
+    paths:
+        - /
+domains:
+    - Generated
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: redirect

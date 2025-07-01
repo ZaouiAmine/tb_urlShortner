@@ -1,0 +1,15 @@
+id: QmZcLh9GnkNE6L3Gj9PmPzqs5Qx9JrJJesiics6nCQEo6e
+description: ""
+tags: []
+source: .
+trigger:
+    type: https
+    method: POST
+    paths:
+        - /shorten
+domains:
+    - Generated
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: shorten
